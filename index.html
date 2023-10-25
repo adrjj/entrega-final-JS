@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylo/estylo.css">
+    <title>Entrega Final</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Historia clinica del automotor</h1>
+    </head>
+    <div class="contBajada">
+        <div class="bajada">
+            <h2>Lleva un registro</h2>
+            <p>Con nuestra webapp, podes llevar un registro de todos los service que le realizas
+                al auto durante el tiempo que lo tengas...
+            </p>
+        </div>
+        <div class="nuevo">
+            <h2>Nueva sección</h2>
+            <a href="./pages/historia.html" class="botonGuardar"> Historia de las marcas </a>
+            <p>Visita nuestra base de datos y conoces cuales fueron los primeros auto, que se fabricaron en nuestro
+                pais.
+            </p>
+        </div>
+    </div>
+    <h2> MI Auto</h2>
+    <section id="tdauto" class="tipo-de-auto">
+        <div class="card-titulo">
+            <h3> Datos del vehiculo</h3>
+            <!-- cremamos un formulario para cargar los datos del auto
+            Colocamos un id para conectarlo con js y que js llene un array que por defecto esta vacio -->
+            <form action="" id="cargaTipoAuto" class="formulario">
+                <input type="text" id="Marca" name="Marca" placeholder="Marca" required class="">
+                <input type="text" id="Modelo" name="Modelo" placeholder="Modelo" required class="">
+                <input type="number" id="AñoAdquirido" name="AñoAdquirido" placeholder="Año Adquirido" required
+                    class="">
+                <input type="number" id="Año" name="Año" placeholder="Año de Patentamiento" required class="">
+                <input type="submit" value="Guardar" class="botonGuardar">
+            </form>
+        </div>
+        <!-- creamos un div para que se muestren los datos que almacenamos en el formulario del auto 
+colocamos un id para que js lo pinte en el doom y quede guardado en el localstorage-->
+
+        <div class="card-auto1" id="muestraTipoAuto">
+
+
+        </div>
+
+    </section>
+
+
+    <h2> Mantenimiento</h2>
+    <section id="tda" class="tipo-de-aceite">
+        <div class="datosAceite">
+            <h3> Cambio de Aceite</h3>
+
+            <form action="" id="cargaTipoAceite" class="formulario  formAceite">
+                <label for="fecha">Fecha </label>
+                <input type="date" id="fechaAceite" name="fecha" required>
+                <input type="text" id="tipo" name="aceiteTipo" placeholder="tipo de aceite" required class="">
+                <div class="filtros">
+                    <h3 class="TituloFiltro">Filtros</h3>
+                    <div class="label">
+                        <label>
+                            <input type="checkbox" name="filtroAceite" value="Si"> Aceite
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="filtroAire" value="Si"> Aire
+                        </label>
+                    </div>
+                    </label>
+                    <div class="label">
+                        <label>
+                            <input type="checkbox" name="filtroNafta" value="SI"> Nafta
+                        </label>
+                        <label>
+                            <input type="checkbox" name="filtroHabitaculo" value="Si"> Habitaculo
+                    </div>
+                </div>
+
+                <textarea type="text" rows="5" cols="50" id="description" name="nota"
+                    placeholder="Info a tener en cuenta" class=""></textarea>
+                <input type="submit" value="Guardar" class="botonGuardar">
+
+            </form>
+        </div>
+        <div class="card-auto1" id="muestraTipoAceite">
+
+        </div>
+    </section>
+
+
+    <!-- <script src="/reduccion.js"></script> -->
+    <script src="./js/main.js"></script>
+
+    <!-- <script src="/service.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+{
+  "ford": [
+    {
+      "nombre": "FORD Argentina",
+      "fundacion": "1913",
+      "fundador": "Henry Ford",
+      "sede_central": "General Pacheco, Buenos Aires",
+      "propietario": "Ford Motor Company",
+      "sitio_web": "www.ford.com.ar",
+      "primer_auto_producido": "Ford T (1917)",
+      "breve_historia_auto_producido": "El Ford T fue el primer automóvil producido en Argentina. Su producción comenzó en 1917 en la planta de La Boca, en Buenos Aires. Fue un vehículo icónico que tuvo un gran impacto en la industria automotriz del país.",
+      "imagen": "../asset/img/ford.jpg"
+    }
+  ],
+  "fiat": [
+    {
+      "nombre": "FIAT Argentina",
+      "fundacion": "1919",
+      "fundador": "Giovanni Agnelli",
+      "sede_central": "Ferreyra, Córdoba",
+      "propietario": "Stellantis",
+      "sitio_web": "www.fiat.com.ar",
+      "primer_auto_producido": "Fiat 1500 (1960)",
+      "breve_historia_auto_producido": "La producción de automóviles Fiat en Argentina comenzó en la década de 1960 con el Fiat 1500. Desde entonces, Fiat ha tenido una fuerte presencia en la industria automotriz del país.",
+      "imagen": "../asset/img/Fiat.jpg"
+    }
+  ],
+  "peugeot": [
+    {
+      "nombre": "PEUGEOT Argentina",
+      "fundacion": "1956",
+      "fundador": "Armando Peugeot",
+      "sede_central": "El Palomar, Buenos Aires",
+      "propietario": "Stellantis",
+      "sitio_web": "www.peugeot.com.ar",
+      "primer_auto_producido": "Peugeot 404 (1962)",
+      "breve_historia_auto_producido": "La producción de Peugeot en Argentina comenzó en la década de 1960 con el modelo 404. Desde entonces, Peugeot ha sido una marca destacada en el mercado automotriz del país.",
+      "imagen": "../asset/img/Peugeot.jpg"
+    }
+  ],
+  "Volkswagen": [
+    {
+      "nombre": "Volkswagen Argentina",
+      "fundacion": "1980",
+      "fundador": "Volkswagen S.A",
+      "sede_central": "General Pacheco, Buenos Aires",
+      "propietario": "Volkswagen Group",
+      "sitio_web": "www.volkswagen.com.ar",
+      "primer_auto_producido": "Volkswagen 1500 (1980)",
+      "breve_historia_auto_producido": "El Dodge 1500 (luego redenominado Volkswagen 1500) fue un automóvil de turismo del segmento C fabricado en la República Argentina por Chrysler-Fevre Argentina S.A., subsidiaria nacional de la firma norteamericana Chrysler, a su vez propietaria de la marca Dodge, y por Volkswagen Argentina S.A., tras la toma del control de Chrysler-Fevre, por parte de Volkswagen. ",
+      "imagen": "../asset/img/Dodge.jpg"
+    }
+  ],
+  "mercedes_benz": [
+    {
+      "nombre": "MERCEDES BENZ Argentina",
+      "fundacion": "1951",
+      "fundador": " Mercedes Benz",
+      "sede_central": "González Catán, Buenos Aires",
+      "propietario": "Daimler AG",
+      "sitio_web": "www.mercedes-benz.com.ar",
+      "primer_auto_producido": "Mercedes-Benz L 312 (1952)",
+      "breve_historia_auto_producido": "La historia dice que en julio de 1956, Mercedes-Benz Argentina cerraba la Planta San Martín para concentrar toda la producción en, su flamante Fábrica de González Catán. Allí, a partir de 1959, cuando finalizan las obras de construcción de Planta II, comienza la producción de los modelos de camiones L311, L 312 y los colectivos LO 311 y LO 312. <br>Sin dudas, el L312 resultó ser todo un éxito para la marca de la Estrella de Tres puntas. El slogan de la época para este camión hacía referencia al futuro: “Allanando los caminos del mañana”, rezaban los folletos.",
+      "imagen": "../asset/img/mercedes.jpg"
+    }
+  ],
+  "iveco": [
+    {
+      "nombre": "IVECO Argentina",
+      "fundacion": "1996",
+      "fundador": "Fiat Vehículos Industriales,",
+      "sede_central": "Ferreyra, Córdoba",
+      "propietario": "CNH Industrial",
+      "sitio_web": "www.iveco.com/argentina",
+      "primer_auto_producido": "619 N y 619 N3E",
+      "breve_historia_auto_producido": "La historia de IVECO en Argentina está íntimamente vinculada a la de la empresa Fiat, grupo industrial al cual pertenece. En 1969, Fiat Vehículos Industriales, inició la producción en Argentina de los primeros camiones pesados y ómnibus para larga distancia. Los modelos elegidos fueron el 619 N y 619 N3E.",
+      "imagen": "../asset/img/iveco.jpg"
+    }
+  ],
+  "toyota": [
+    {
+      "nombre": "TOYOTA Argentina",
+      "fundacion": "1994",
+      "fundador": "Toyota Corporation",
+      "sede_central": "Zárate, Buenos Aires",
+      "propietario": "Toyota Motor Corporation",
+      "sitio_web": "www.toyota.com.ar",
+      "primer_auto_producido": "Toyota Hilux  (1997)",
+      "breve_historia_auto_producido": "El 9 de diciembre de 1996 se presentó la primera pick up Hilux argentina realizada bajo pruebas de producción. La planta fue oficialmente inaugurada el 21 de marzo de 1997 y se convirtió en la número 29 de la marca en el mundo. La inversión de Toyota fue la primera de una automotriz de origen japonés y alcanzó los 150 millones de dólares entre equipamiento y capacitación del personal empleado que inicialmente era de 750 personas.",
+      "imagen": "../asset/img/Toyota.jpg"
+    }
+  ],
+  "renault": [
+    {
+      "nombre": "RENAULT Argentina",
+      "fundacion": "1955",
+      "fundador": "RENAULT",
+      "sede_central": "Córdoba, Argentina",
+      "propietario": "Renault Group",
+      "sitio_web": "www.renault.com.ar",
+      "primer_auto_producido": "Gordini ",
+      "breve_historia_auto_producido": "IKA (Industrias Káiser Argentina) adquiere las licencias para comercializar el modelo Gordini, fabricándose desde julio de 1960 a septiembre de 1970. El Renault Dauphine significó para Argentina el inicio de esta marca en el país. Hasta ese momento los únicos Renault que circulaban por Argentina eran traídos de Francia.",
+      "imagen": "../asset/img/Renault.jpg"
+    }
+  ],
+  "chevrolet": [
+    {
+      "nombre": "CHEVROLET Argentina",
+      "fundacion": "1925",
+      "fundador": " General Motors Corporation ",
+      "sede_central": "Rosario, Santa Fe (Complejo Industrial Alvear) actual",
+      "propietario": "General Motors",
+      "sitio_web": "www.chevrolet.com.ar",
+      "primer_auto_producido": "Chevrolet 400 ",
+      "breve_historia_auto_producido": " En su instalación de la localidad bonaerense de San Martín. Durante ese período, la compañía fabricó en el país modelos de las marcas Chevrolet, Oldsmobile, Cadillac, LaSalle, Oakland, Marquette y Opel, teniendo éxito la primera. Con la instalación de la fábrica de San Martín, comenzó la producción de los primeros Chevrolet 100% nacionales, entre los que se destacaban el Chevrolet 400, el Chevrolet Chevy (ambas versiones derivadas del Chevrolet Nova) y la Pick-up Chevrolet C-10. ",
+      "imagen": "../asset/img/Chevrolet.jpg"
+    }
+  ],
+  "citroen": [
+    {
+      "nombre": "CITROËN Argentina",
+      "fundacion": "1914",
+      "fundador": "André Citroën ",
+      "sede_central": "Palomar, Buenos Aires (en asociación con Peugeot)",
+      "propietario": "Stellantis",
+      "sitio_web": "www.citroen.com.ar",
+      "primer_auto_producido": " Citroën 2CV (1958)",
+      "breve_historia_auto_producido": "Los primeros 2 CV llegaron a la Argentina en la década del ‘60 con motores de 425 cc e innovaciones como limpiaparabrisas mecánico, regulación de faros desde el interior y el arranque que se hacía desde el habitáculo, tirando un cable que accionaba el motor. <br>Unos años después, en 1967, se construyó en el barrio de Barracas la primera fábrica argentina de Citroën y allí desarrollan el 3CV que se diferenció de su antecesor por poseer un motor de 605cc con 28 cv, el cual se fabricó junto con el AMI 8, los furgones y el Mehari (ya populares en Europa y norte de Africa).",
+      "imagen": "../asset/img/Citroen.jpg"
+    }
+  ]
+}

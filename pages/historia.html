@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylo/estylo.css">
+    <title>Historia de las marcas</title>
+</head>
+
+<body onload="seleccionarMarca('ford')">
+
+    <h1>Historia de las Marcas en la Argentina</h1>
+
+
+    <section class="secHistoria">
+        <div class="contlista">
+            <label class="tituloLista" for="miLista">Quiero saber la historia de:</label>
+            <select id="miLista" onchange="seleccionarMarca(this.value)">
+
+                <option value="ford">Ford</option>
+                <option value="fiat">Fiat</option>
+                <option value="chevrolet">Cehvrolet</option>
+                <option value="peugeot">Peugeot</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="renault">Renault</option>
+                <option value="citroen">Citroen</option>
+                <option value="toyota">Toyota</option>
+                <option value="mercedes_benz">Mercedes Benz</option>
+                <option value="iveco">Iveco</option>
+
+
+            </select>
+        </div>
+        <div class="contenedorH" id="contHistoria"></div>
+    </section>
+    <script src="../js/api.js"></script>
+</body>
+
+</html>
